@@ -28,10 +28,11 @@ pipeline {
       steps {
        echo 'Deployed'
       }
+    }
       stage ('Success') {
       steps {
        echo 'Pipeline success'
       }
-    }
+      }    
   }
 }
